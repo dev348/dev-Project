@@ -1,3 +1,8 @@
+
+
+
+
+
 // This is the array that will hold the todo list items
 
 let todoInput = [];
@@ -43,6 +48,10 @@ function myDisplay(value) {
  
  var viewOnsrceen= document.getElementById("displayTodo");
  viewOnsrceen.appendChild(list);
-  //  return document.getElementById("displayTodo").innerHTML = (value);
+  
   }
 
+  function clearArray() {
+    document.getElementById("displayTodo").innerHTML="";
+  
+    }
