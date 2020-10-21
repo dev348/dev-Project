@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@use "@material/list";
 
-@include list.core-styles;
 body{
     display: flex;
     flex-direction: column;
