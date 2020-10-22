@@ -74,3 +74,5 @@ function myDisplay(value) {
     document.getElementById("frontName").innerHTML=`Hey,${textName} have a pleasant day!`;
   
   }
+  var d = new Date();
+document.getElementById("currentDate").innerHTML = d;;
