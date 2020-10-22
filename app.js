@@ -11,9 +11,10 @@ function addTodo(text){
     const todo ={
         text, id: Date.now(),
     };
-
-    todoInput.push(todo);
+    
+     todoInput.push(todo);
     // console.log(todoInput);
+  
 
 }
 function actionTodo() {
@@ -21,18 +22,21 @@ function actionTodo() {
 
     // select the text input
     const input = document.getElementById('getTodo');
-
+   
     const text = input.value.trim();
-  if (text !== '') {
+  
+  if (text !== '' ) {
+   
     addTodo(text);
     input.value = '';
     input.focus();
-  }
+  } 
+  
   for(let index = 0;index < todoInput.length;index++){
-    if(todoInput[index].text === text )
+    if(todoInput[index].text === text  )
        var displayValue= todoInput[index].text;
   }
-
+if(displayValue !== '' && displayValue === text)
    myDisplay(displayValue)
 
 }
@@ -44,9 +48,9 @@ function myDisplay(value) {
   var list = ul.innerText=(li);
 
   li.innerText = (  todoList.innerText=(value));
-   
+  var viewOnsrceen= document.getElementById("displayTodo");
+  
  
- var viewOnsrceen= document.getElementById("displayTodo");
  viewOnsrceen.appendChild(list);
   
   }
