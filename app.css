@@ -12,14 +12,17 @@ body{
 .container-fluid{
     margin-top: 5%;
     justify-content: center;
-   
+    background: -webkit-linear-gradient(left,#2a4646,#0b3030,#145757);
     border-radius: 5px;
     box-shadow: 2px;
+    
 
     
 
 }
-
+.box-card{
+    background: -webkit-linear-gradient(left,#e2e7e7,#dafafa,#edfafa);
+}
 #displayTodo {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -78,15 +81,13 @@ input{
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    background: -webkit-linear-gradient(left,#d4ebeb,#e4ffff,#c0f5f5);
+    background: -webkit-linear-gradient(left,#99cccc,#a5e2e2,#c0f5f5);
     
 }
 /* footer */
 footer{
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: bolder;
+    font-weight: 800;
     font-style: italic;
     text-align: center;
-
+    background: -webkit-linear-gradient(left,#24bdbd,#09caca,#04f5f5);
 }
