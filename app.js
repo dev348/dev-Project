@@ -41,7 +41,7 @@ if(displayValue !== '' && displayValue === text)
 
 }
 function myDisplay(value) {
-  var ul = document.createElement("ul");
+  var ul = document.createElement("ul.strul");
   var li = document.createElement("li");
   var todoList= document.createElement("p");
 

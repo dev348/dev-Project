@@ -1,18 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 body{
-    display: flex;
+    display: grid;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
+    place-items: center;
     height: 100%;
+    margin: 0;
 
 }
 .container-fluid{
-    margin-top: 15%;
+    margin-top: 5%;
     justify-content: center;
+   
+    border-radius: 5px;
+    box-shadow: 2px;
+
     
 
 }
+
+#displayTodo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    list-style-type: "> ";
+}
+
 header{
     font-size: 12px;
     font-weight: 200;
@@ -28,15 +43,25 @@ button{
     height: 40px;
     
     margin: 10px;
+    padding: 2px 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
+    width: 100%;
+    border: none;
+    padding: 12px 60px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left,#2a4646,#011616,#159494);
+    display: inline-block;
 }
 
 .btn1{
-   margin-top: 10px;
    margin-bottom: 10px;
     
 }
  .btn2{
-    margin-top: 10px;
+     margin-top: 10px;
     justify-content: center;
    
    
@@ -45,7 +70,23 @@ button{
 
 input{
     width: 100%;
-    height: 30px;
+    height: 100%;
     margin: 10%;
+    width: 100%;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background: -webkit-linear-gradient(left,#d4ebeb,#e4ffff,#c0f5f5);
+    
 }
+/* footer */
+footer{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
 
+}
