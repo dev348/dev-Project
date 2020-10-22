@@ -59,3 +59,18 @@ function myDisplay(value) {
     document.getElementById("displayTodo").innerHTML="";
   
     }
+    
+    const name = window.prompt("your NickName ");
+    const textName = name; 
+        if(textName !== '')
+    {
+      userName(textName);
+      
+    }
+    
+   
+  function  userName(textName){
+    
+    document.getElementById("frontName").innerHTML=`Hey,${textName} have a pleasant day!`;
+  
+  }
